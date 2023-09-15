@@ -1,0 +1,28 @@
+{
+    "Spells": [
+        {
+            "Name": "Heal",
+            "Description": "Heals a target.",
+            "SpellType": 0,
+            "Target": 0,
+            "Power": 50.0,
+            "ManaCost": 10.0
+        },
+        {
+            "Name": "Fireball",
+            "Description": "Deals fire damage to a target.",
+            "SpellType": 1,
+            "Target": 1,
+            "Power": 75.0,
+            "ManaCost": 20.0
+        },
+        {
+            "Name": "Magic Missile",
+            "Description": "Deals fire damage to a target.",
+            "SpellType": 1,
+            "Target": 1,
+            "Power": 75.0,
+            "ManaCost": 20.0
+        }
+    ]
+}

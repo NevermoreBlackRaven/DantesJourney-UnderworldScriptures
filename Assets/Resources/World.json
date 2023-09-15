@@ -1,0 +1,182 @@
+{
+    "Rooms": [
+        {
+            "Name": "Entrance",
+            "Description": "A dimly lit entrance",
+            "LongDescription": "You find yourself in a dimly lit entrance of a cave. You see a corridor leading east and another leading north.",
+            "Picture": "Entrance",
+            "Exits": [
+                {
+                    "Direction": "east",
+                    "RoomId": "TorchRoom",
+                    "Locked": false,
+                    "RequiredItem": ""
+                },
+                {
+                    "Direction": "north",
+                    "RoomId": "GoblinRoom",
+                    "Locked": false,
+                    "RequiredItem": ""
+                }
+            ],
+            "Items": [],
+            "InteractableObjects": [],
+            "ItemNames": [
+                "Sword",
+                "Leather Armor"
+            ],
+            "MonsterNames": [
+                "Mouse"
+            ],
+            "Flags": []
+        },
+        {
+            "Name": "TorchRoom",
+            "Description": "A room with a torch",
+            "LongDescription": "You enter a small room. There's a torch on the wall, providing some light.",
+            "Picture": "TorchRoom",
+            "Exits": [
+                {
+                    "Direction": "west",
+                    "RoomId": "Entrance",
+                    "Locked": false,
+                    "RequiredItem": ""
+                },
+                {
+                    "Direction": "north",
+                    "RoomId": "DarkRoom",
+                    "Locked": false,
+                    "RequiredItem": ""
+                }
+            ],
+            "Items": [],
+            "InteractableObjects": [],
+            "ItemNames": [
+                "A Torch"
+            ],
+            "MonsterNames": [
+                "Kobold"
+            ],
+            "Flags": []
+        },
+        {
+            "Name": "GoblinRoom",
+            "Description": "A room with a goblin",
+            "LongDescription": "You enter a room and see a goblin guarding a chest.",
+            "Picture": "GoblinRoom",
+            "Exits": [
+                {
+                    "Direction": "south",
+                    "RoomId": "Entrance",
+                    "Locked": false,
+                    "RequiredItem": ""
+                },
+                {
+                    "Direction": "east",
+                    "RoomId": "Library",
+                    "Locked": false,
+                    "RequiredItem": ""
+                }
+            ],
+            "Items": [],
+            "InteractableObjects": [
+                {
+                    "Name": "Treasure Chest",
+                    "Description": "A large treasure chest",
+                    "InteractionItemName": "A Golden Key"
+                }
+            ],
+            "ItemNames": [],
+            "MonsterNames": [
+                "Goblin"
+            ],
+            "Flags": []
+        },
+        {
+            "Name": "DarkRoom",
+            "Description": "A dark room",
+            "LongDescription": "You enter a dark room. You can only see by torchlight.",
+            "Picture": "DarkRoom",
+            "Exits": [
+                {
+                    "Direction": "south",
+                    "RoomId": "TorchRoom",
+                    "Locked": false,
+                    "RequiredItem": ""
+                },
+                {
+                    "Direction": "east",
+                    "RoomId": "LockedRoom",
+                    "Locked": true,
+                    "RequiredItem": "A Golden Key"
+                }
+            ],
+            "Items": [],
+            "InteractableObjects": [],
+            "ItemNames": [
+                "Longsword"
+            ],
+            "MonsterNames": [
+                "Skeleton",
+                "Mouse"
+            ],
+            "Flags": [
+                "dark"
+            ]
+        },
+        {
+            "Name": "LockedRoom",
+            "Description": "A locked room",
+            "LongDescription": "You enter a secret room with a treasure chest in the center.",
+            "Picture": "GoblinRoom",
+            "Exits": [
+                {
+                    "Direction": "west",
+                    "RoomId": "DarkRoom",
+                    "Locked": false,
+                    "RequiredItem": ""
+                }
+            ],
+            "Items": [],
+            "InteractableObjects": [
+                {
+                    "Name": "Treasure Chest",
+                    "Description": "A large treasure chest",
+                    "InteractionItemName": "Bronze Helmet"
+                }
+            ],
+            "ItemNames": [
+                "Magic Ring"
+            ],
+            "MonsterNames": [],
+            "Flags": []
+        },
+        {
+            "Name": "Library",
+            "Description": "A dusty library",
+            "LongDescription": "You enter a dimly lit library filled with old books.",
+            "Picture": "Library",
+            "Exits": [
+                {
+                    "Direction": "west",
+                    "RoomId": "GoblinRoom",
+                    "Locked": false,
+                    "RequiredItem": ""
+                }
+            ],
+            "Items": [],
+            "InteractableObjects": [
+                {
+                    "Name": "Bookshelf",
+                    "Description": "A bookshelf filled with ancient tomes",
+                    "InteractionItemName": "Ancient Tome"
+                }
+            ],
+            "ItemNames": [],
+            "MonsterNames": [
+                "Friendly Merchant"
+            ],
+            "Flags": []
+        }
+    ]
+}

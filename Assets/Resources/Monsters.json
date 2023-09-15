@@ -1,0 +1,123 @@
+{
+    "Monsters": [
+        {
+            "Name": "Goblin",
+            "Description": "A small, green, and ugly creature with sharp teeth and a foul smell.",
+            "Aggressive": true,
+            "ShopKeeper": false,
+            "ItemNames": [
+                "Small Dagger",
+                "Leather Armor"
+            ],
+            "EquippedItemNames": [
+                "Small Dagger"
+            ],
+            "Wanders": false,
+            "Health": 100.0,
+            "MaxHealth": 100.0,
+            "Mana": 0.0,
+            "MaxMana": 0.0,
+            "Dead": false,
+            "InCombat": false,
+            "SpellNames": []
+        },
+        {
+            "Name": "Friendly Merchant",
+            "Description": "A kind and experienced merchant, offering various goods to adventurers.",
+            "Aggressive": false,
+            "ShopKeeper": true,
+            "ItemNames": [
+                "Health Potion",
+                "Mana Potion",
+                "A Torch",
+                "A Golden Key",
+                "Leather Armor",
+                "Longsword"
+            ],
+            "EquippedItemNames": [],
+            "Wanders": false,
+            "Health": 100.0,
+            "MaxHealth": 100.0,
+            "Mana": 0.0,
+            "MaxMana": 0.0,
+            "Dead": false,
+            "InCombat": false,
+            "SpellNames": []
+        },
+        {
+            "Name": "Kobold",
+            "Description": "A small, reptilian creature with a knack for setting traps and ambushes.",
+            "Aggressive": false,
+            "ShopKeeper": false,
+            "ItemNames": [
+                "Small Dagger"
+            ],
+            "EquippedItemNames": [],
+            "Wanders": false,
+            "Health": 85.0,
+            "MaxHealth": 85.0,
+            "Mana": 0.0,
+            "MaxMana": 0.0,
+            "Dead": false,
+            "InCombat": false,
+            "SpellNames": []
+        },
+        {
+            "Name": "Skeleton",
+            "Description": "A reanimated pile of bones, wielding a rusty sword and shield.",
+            "Aggressive": false,
+            "ShopKeeper": false,
+            "ItemNames": [
+                "Longsword",
+                "Shield",
+                "A Golden Key"
+            ],
+            "EquippedItemNames": [
+                "Longsword",
+                "Shield"
+            ],
+            "Wanders": false,
+            "Health": 50.0,
+            "MaxHealth": 50.0,
+            "Mana": 0.0,
+            "MaxMana": 0.0,
+            "Dead": false,
+            "InCombat": false,
+            "SpellNames": []
+        },
+        {
+            "Name": "Lich",
+            "Description": "A nasty undead",
+            "Aggressive": false,
+            "ShopKeeper": false,
+            "ItemNames": [],
+            "EquippedItemNames": [],
+            "Wanders": false,
+            "Health": 100.0,
+            "MaxHealth": 100.0,
+            "Mana": 100.0,
+            "MaxMana": 100.0,
+            "Dead": false,
+            "InCombat": false,
+            "SpellNames": [
+                "Fireball"
+            ]
+        },
+        {
+            "Name": "Mouse",
+            "Description": "A tiny mouse, running around.",
+            "Aggressive": false,
+            "ShopKeeper": false,
+            "ItemNames": [],
+            "EquippedItemNames": [],
+            "Wanders": true,
+            "Health": 25.0,
+            "MaxHealth": 25.0,
+            "Mana": 0.0,
+            "MaxMana": 0.0,
+            "Dead": false,
+            "InCombat": false,
+            "SpellNames": []
+        }
+    ]
+}

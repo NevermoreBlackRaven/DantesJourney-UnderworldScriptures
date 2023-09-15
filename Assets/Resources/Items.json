@@ -1,0 +1,74 @@
+{
+    "Items": [
+        {
+            "Name": "A Torch",
+            "Description": "A simple wooden torch that emits a faint glow.",
+            "Slot": "",
+            "Power": 0,
+            "Value": 5.0
+        },
+        {
+            "Name": "A Golden Key",
+            "Description": "A beautifully crafted golden key with intricate engravings.",
+            "Slot": "",
+            "Power": 0,
+            "Value": 25.0
+        },
+        {
+            "Name": "Bronze Helmet",
+            "Description": "A sturdy bronze helmet that provides basic protection for the head.",
+            "Slot": "head",
+            "Power": 1,
+            "Value": 50.0
+        },
+        {
+            "Name": "Iron Sword",
+            "Description": "A sharp iron sword that can deal significant damage to enemies.",
+            "Slot": "weapon",
+            "Power": 20,
+            "Value": 75.0
+        },
+        {
+            "Name": "Ancient Tome",
+            "Description": "A mysterious old book containing forgotten knowledge.",
+            "Slot": "",
+            "Power": 0,
+            "Value": 45.0
+        },
+        {
+            "Name": "Small Dagger",
+            "Description": "A small, sharp dagger perfect for quick attacks.",
+            "Slot": "weapon",
+            "Power": 10,
+            "Value": 30.0
+        },
+        {
+            "Name": "Leather Armor",
+            "Description": "A set of leather armor offering basic protection.",
+            "Slot": "chest",
+            "Power": 4.5,
+            "Value": 40.0
+        },
+        {
+            "Name": "Health Potion",
+            "Description": "A potion that restores a moderate amount of health when consumed.",
+            "Slot": "",
+            "Power": 0,
+            "Value": 15.0
+        },
+        {
+            "Name": "Mana Potion",
+            "Description": "A potion that restores a moderate amount of mana when consumed.",
+            "Slot": "",
+            "Power": 0,
+            "Value": 15.0
+        },
+        {
+            "Name": "Longsword",
+            "Description": "A long, double-edged sword capable of dealing heavy damage.",
+            "Slot": "weapon",
+            "Power": 25,
+            "Value": 100.0
+        }
+    ]
+}
